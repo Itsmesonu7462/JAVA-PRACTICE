@@ -12,5 +12,8 @@ public class strings{
      System.out.println(name1.concat(",i read in this")); //to add a new strig iin the same
      System.out.println(name1.toUpperCase());
      System.out.println(name1.trim());//removes statring and ending extra spaces.
+     System.out.println(name1.contains("mmdu"));//check for string contains the given string or not.
+     System.out.println("mmu".equals("MMU"));//check for string is same or not
+     System.out.println(name1.indexOf("bi"));
     }
 }
