@@ -45,7 +45,6 @@ public class singlelinkList {
         list.addFirst(null);
         list.addFirst("ONE");
         list.addLast("full");
-        
         list.printList();
      }
 }
