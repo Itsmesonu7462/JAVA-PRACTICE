@@ -1,2 +1,4 @@
 *.class
 #ignore class files.
+*.c
+#ignore C source files.
