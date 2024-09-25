@@ -20,7 +20,7 @@ public class StackExample {
 
         System.out.println("Stack before inserting at end:");
         // Print and pop the stack contents
-        Stack<Integer> tempStack = (Stack<Integer>) stack.clone();
+        Stack<Integer> tempStack = (Stack<Integer>)stack.clone();
         while (!tempStack.isEmpty()) {
             System.out.println(tempStack.peek());
             tempStack.pop();
