@@ -9,11 +9,15 @@ public class stackSorting {
     stack.push(2);
     stack.push(1);
     stack.push(4);
-  stack = sortStack(stack);
-  while(!stack.isEmpty()){
-    System.out.println(stack.pop());
-  }
+    
+    stack = sortStack(stack);
+    int maxElement = stack.pop();
+    System.out.println(maxElement + " is the highest element");
+    while(!stack.isEmpty()){
+        System.out.println(stack.pop());
+    }
    }
+   
    public static Stack<Integer> sortStack(Stack<Integer> stack) {
     Stack<Integer> tempStack = new Stack<Integer>();
     while (!stack.isEmpty()) {
@@ -25,5 +29,4 @@ public class stackSorting {
     }
     return tempStack;
 }
-
 }
