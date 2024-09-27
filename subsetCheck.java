@@ -1,5 +1,5 @@
 import java.util.*;
-public class subseytCheck {
+public class subsetCheck {
 
     public static boolean checkSubarray(int []arr, int []arr2){
         Set<Integer> hashSet = new HashSet<>();
