@@ -23,5 +23,7 @@ public class hasMap {
         System.out.println(i+ " "+ std.get(i));
 
     }
+    std.remove(501);
+    System.out.println(std);
   }
 }
