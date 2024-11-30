@@ -1,4 +1,8 @@
 import java.util.*;
+import java.util.Queue;
+import java.util.Stack;
+import java.util.LinkedList; // Required if using LinkedList for Queue implementation
+
 
 public class queueRev {
   public static void main(String[] args) {
