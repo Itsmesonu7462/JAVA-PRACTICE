@@ -1,5 +1,6 @@
 import java.util.*;
-
+import java.util.ArrayList;
+import java.util.HashSet;
 public class unionHash {
        public static int union(int[] a ,int[] b){
        HashSet<String,Integer> set = new HashSet<>();
